@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HelloThymeleafApplication",
+      "request": "launch",
+      "mainClass": "com.e_codes.hello_thymeleaf.HelloThymeleafApplication",
+      "projectName": "hello_thymeleaf"
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-HellotestApplication<hellotest>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
