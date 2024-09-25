@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student List</title>
+  </head>
+  <body>
+    <!-- Welcome message -->
+    <h2>Welcome to the Student List</h2>
+
+    <!-- Display the list of students -->
+    <ul>
+      <!-- Use th:each to iterate over the list of students -->
+      <li th:each="student : ${students}">
+        <span th:text="${student.firstName}"></span>
+        <span th:text="${student.lastName}"></span>
+      </li>
+    </ul>
+  </body>
+</html>
