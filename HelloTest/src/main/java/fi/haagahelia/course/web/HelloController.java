@@ -24,7 +24,7 @@ public class HelloController {
     }
 
     @ResponseBody
-    @RequestMapping("/hello")
+    @RequestMapping("/hi")
     public String hello(@RequestParam(name = "firstname", required = false) String firstName,
             @RequestParam(name = "lastname", required = false) String lastName) {
 

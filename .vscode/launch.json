@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HellotolistApplication",
+      "request": "launch",
+      "mainClass": "fi.haagahelia.hellotolist.HellotolistApplication",
+      "projectName": "hellotolist"
+    },
+    {
+      "type": "java",
       "name": "HelloThymeleafApplication",
       "request": "launch",
       "mainClass": "com.e_codes.hello_thymeleaf.HelloThymeleafApplication",
