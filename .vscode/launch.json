@@ -5,7 +5,8 @@
       "name": "HelloThymeleafApplication",
       "request": "launch",
       "mainClass": "com.e_codes.hello_thymeleaf.HelloThymeleafApplication",
-      "projectName": "hello_thymeleaf"
+      "projectName": "hello_thymeleaf",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59471 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=hello_thymeleaf"
     },
     {
       "type": "java",
@@ -24,6 +25,16 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "fi.haagahelia.course.StudentListApplication",
       "projectName": "StudentList",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-HellostudentsApplication<hellostudents>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.e_code.hellostudents.HellostudentsApplication",
+      "projectName": "hellostudents",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
