@@ -1,4 +1,4 @@
-package domain;
+package fi.haagahelia.hellotolist.domain;
 
 public class Student {
     private String firstName;

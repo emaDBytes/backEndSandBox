@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-HellotolistApplication<hellotolist>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "fi.haagahelia.hellotolist.HellotolistApplication",
+      "projectName": "hellotolist",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

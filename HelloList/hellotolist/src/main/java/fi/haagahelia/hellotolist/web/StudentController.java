@@ -1,10 +1,10 @@
-package web;
+package fi.haagahelia.hellotolist.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import domain.Student;
+import fi.haagahelia.hellotolist.domain.Student;
 
 import java.util.ArrayList;
 import java.util.List;
